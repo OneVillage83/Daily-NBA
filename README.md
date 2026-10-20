@@ -22,6 +22,13 @@ Use independently derived basketball outcome distributions based on **raw/advanc
 2. [Data dictionary and ingestion contract](docs/DATA_DICTIONARY.md) — normalized statistics, minimum fields, data completeness, source permissions, provenance and quality.
 3. [Shadow audit and acceptance](docs/SHADOW_AUDIT_SOP.md) — exact freeze-first audit sequence, quality gates, EV, calibration, release criteria.
 
+## Frozen research audits
+
+- [October 20, 2026 NBA opening day v0.1](audits/2026-10-20-opening-day-shadow-v0.1.md) — original experimental pregame forecast (90,000 draws/game).
+- [October 20, 2026 NBA opening day v0.2](audits/2026-10-20-opening-day-shadow-v0.2.md) — separate pregame run (72,000 draws/game), improved minutes/stat accounting and partial shot-zone data. **Uncalibrated** and **not** a verified full-model implementation.
+
+Retain both prediction records immutable for the next-day prospective outcome comparison. The runnable model/test bundle is attached in the ChatGPT Daily Line Audits conversation; the GitHub report documents inputs, limitations, hashes and forecast probabilities. No calibrated betting edge has been established.
+
 ## Pipeline
 
 ```text
