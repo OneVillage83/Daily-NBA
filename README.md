@@ -12,7 +12,7 @@ Use independently derived basketball outcome distributions based on **raw/advanc
 
 - Pregame win probability, fair moneyline, projected points, margin, spread/total distributions, team totals.
 - Player points, rebounds, assists, 3PM, combo props (PRA/PR/PA/RA), double-doubles and independently derived fantasy points.
-- Conditional injury/QB-free NBA equivalent scenarios: player available / unavailable / restricted minutes; lineups projected until confirmed.
+- Conditional player-availability scenarios: available / unavailable / restricted minutes; starting lineups remain clearly labeled projected until confirmed.
 - Market-only stage **after** a timestamped forecast freeze: contract definition, no-vig where applicable, edge, fees, EV, uncertainty, buy threshold, PASS/WATCH/AVOID.
 - Independent live snapshots (separate from immutable pregame records), then closing-line and actual-outcome validation.
 
