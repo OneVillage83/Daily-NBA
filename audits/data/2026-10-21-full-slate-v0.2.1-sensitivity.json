@@ -1,0 +1,107 @@
+{
+  "base_frozen_sha256": "5f684c3a9557c8e8af081ab7595f482cc6a4abac6df832daa3e1e938014fae8c",
+  "supplement": "EXPERIMENTAL nonfitted +/-4 offense per100 both teams, independently priced sensitivity (no odds); assumptions only",
+  "supplement_drawwise_seed": 20261021,
+  "supplement_draws_each": 14000,
+  "games": [
+    {
+      "game": "MIL@WAS",
+      "base_p_home": 0.6496166666666666,
+      "home_p_low": 0.5251428571428571,
+      "home_p_high": 0.763,
+      "method": "Home roster offense +/-4 and away roster offense -/+4 points per 100 from baseline"
+    },
+    {
+      "game": "ATL@ORL",
+      "base_p_home": 0.5143833333333333,
+      "home_p_low": 0.39935714285714285,
+      "home_p_high": 0.6387142857142857,
+      "method": "Home roster offense +/-4 and away roster offense -/+4 points per 100 from baseline"
+    },
+    {
+      "game": "CHA@BKN",
+      "base_p_home": 0.4030166666666667,
+      "home_p_low": 0.2909285714285714,
+      "home_p_high": 0.5227857142857143,
+      "method": "Home roster offense +/-4 and away roster offense -/+4 points per 100 from baseline"
+    },
+    {
+      "game": "CHI@TOR",
+      "base_p_home": 0.7382666666666666,
+      "home_p_low": 0.6237142857142857,
+      "home_p_high": 0.8201428571428572,
+      "method": "Home roster offense +/-4 and away roster offense -/+4 points per 100 from baseline"
+    },
+    {
+      "game": "MIN@MIA",
+      "base_p_home": 0.6328333333333334,
+      "home_p_low": 0.5091428571428571,
+      "home_p_high": 0.7368571428571429,
+      "method": "Home roster offense +/-4 and away roster offense -/+4 points per 100 from baseline"
+    },
+    {
+      "game": "IND@NOP",
+      "base_p_home": 0.5556,
+      "home_p_low": 0.4258571428571429,
+      "home_p_high": 0.6768571428571428,
+      "method": "Home roster offense +/-4 and away roster offense -/+4 points per 100 from baseline"
+    },
+    {
+      "game": "UTA@MEM",
+      "base_p_home": 0.47015,
+      "home_p_low": 0.3445,
+      "home_p_high": 0.602,
+      "method": "Home roster offense +/-4 and away roster offense -/+4 points per 100 from baseline"
+    },
+    {
+      "game": "DAL@HOU",
+      "base_p_home": 0.68345,
+      "home_p_low": 0.5671428571428572,
+      "home_p_high": 0.7745714285714286,
+      "method": "Home roster offense +/-4 and away roster offense -/+4 points per 100 from baseline"
+    },
+    {
+      "game": "PHX@POR",
+      "base_p_home": 0.5329333333333334,
+      "home_p_low": 0.4119285714285714,
+      "home_p_high": 0.6465,
+      "method": "Home roster offense +/-4 and away roster offense -/+4 points per 100 from baseline"
+    },
+    {
+      "game": "GSW@LAL",
+      "base_p_home": 0.6517666666666667,
+      "home_p_low": 0.5292142857142857,
+      "home_p_high": 0.7530714285714286,
+      "method": "Home roster offense +/-4 and away roster offense -/+4 points per 100 from baseline"
+    },
+    {
+      "game": "SAC@LAC",
+      "base_p_home": 0.5948166666666667,
+      "home_p_low": 0.4717857142857143,
+      "home_p_high": 0.7175,
+      "method": "Home roster offense +/-4 and away roster offense -/+4 points per 100 from baseline"
+    }
+  ],
+  "conditional": [
+    {
+      "game": "PHX@POR",
+      "player": "Deni Avdija",
+      "assumed_minutes": 0,
+      "offense_rating_delta": -4.5,
+      "defense_rating_delta": 1.0,
+      "model_conditional_home_win": 0.44257142857142856,
+      "model_conditional_total": 222.25,
+      "assumption_warning": "NOT verified injury substitution response; no lineup WOWY; zero appearance probability assumed only within conditional scenario"
+    },
+    {
+      "game": "SAC@LAC",
+      "player": "Malik Monk",
+      "assumed_minutes": 0,
+      "offense_rating_delta": -1.5,
+      "defense_rating_delta": 0.5,
+      "model_conditional_home_win": 0.62,
+      "model_conditional_total": 223.67,
+      "assumption_warning": "NOT verified injury substitution response; no lineup WOWY; zero appearance probability assumed only within conditional scenario"
+    }
+  ]
+}
